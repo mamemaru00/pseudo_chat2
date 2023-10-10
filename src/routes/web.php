@@ -16,9 +16,9 @@ use App\Http\Controllers\ChatMessageController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 // チャットルーム一覧の表示
 Route::get('/', [ChatRoomController::class, 'index'])->name('ChatRooms.index');

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>疑似チャット一覧</title>
 </head>
+
 <body>
     <h1>疑似チャット一覧</h1>
 
@@ -13,7 +15,7 @@
     <p>ユーザー名：{{ $users->user_name }}</p>
     {{-- 新規作成ボタン作成 storeで新規作成 --}}
     {{-- <a href={{ route('chatRooms.store') }}>新規作成</a> --}}
-    <form action="/ChatRooms.store" method="POST">
+    <form action="/ChatRooms/store" method="POST">
         @csrf
         <button type="submit">新規作成</button>
     </form>
@@ -30,4 +32,5 @@
         @endforeach
     </ul>
 </body>
+
 </html>

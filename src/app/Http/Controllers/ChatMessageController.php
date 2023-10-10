@@ -10,6 +10,6 @@ use App\Models\chatMessages;
 class ChatMessageController extends Controller
 {
     public function show() {
-        return view('chatMessages.show');
+        return view('ChatMessages.show');
     }
 }

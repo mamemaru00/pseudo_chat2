@@ -26,7 +26,7 @@ class ChatRoomController extends Controller
         $chat_room_create = new chatRooms();
         $chat_room_count = chatRooms::count();
         $chat_room_name = 'ルーム' . ($chat_room_count + 1);
-        $chat_room_create->roomName = $chat_room_name;
+        $chat_room_create->room_name = $chat_room_name;
         $chat_room_create->save();
 
         return redirect()->route('ChatRooms.index');
