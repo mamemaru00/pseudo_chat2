@@ -31,6 +31,6 @@ Route::post('/ChatRooms/store', [ChatRoomController::class, 'store'])->name('Cha
 // チャットメッセージの表示
 Route::get('/ChatMessage/{id}', [ChatMessageController::class, 'show'])->name('ChatMessages.show');
 // チャットメッセージの送信
-Route::post('/message_store', [ChatMessageController::class, 'store'])->name('ChatMessages.message_store');
+Route::post('/message_store', [ChatMessageController::class, 'store'])->name('message_store');
 // チャットメッセージの自動返信を生成
 // ユーザーチャットメッセージの判別

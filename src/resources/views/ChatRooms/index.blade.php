@@ -15,7 +15,9 @@
     <p>ユーザー名：{{ $users->user_name }}</p>
     {{-- 新規作成ボタン作成 storeで新規作成 --}}
     {{-- <a href={{ route('chatRooms.store') }}>新規作成</a> --}}
-    <form action="/ChatRooms/store" method="POST">
+    {{-- ルートのnameで指定する --}}
+    {{-- <form action="/ChatRooms/store" method="POST"> --}}
+    <form action="{{ route('ChatRooms.store') }}" method="POST">
         @csrf
         <button type="submit">新規作成</button>
     </form>
