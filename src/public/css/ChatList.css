@@ -1,0 +1,38 @@
+.chatlist_background {
+    width: 100%;
+}
+
+.chatlist_background_color {
+    background: #EEEEEE;
+    margin: 50px;
+    height: 700px;
+}
+
+.chatlist_user_name {
+    font-size: 25px;
+    margin-left: 60px;
+    padding-top: 50px;
+}
+
+.chatlist_user_name_position {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chatlist_user_name_edit {
+    margin-right: 300px;
+    padding-top: 20px;
+}
+
+.chatlist_edit button {
+    width: 100px;
+    height: 42px;
+    font-size: 24px;
+    background-color: #D2691E;
+    cursor: pointer;
+}
+
+.chatlist_room_list a {
+    display: flex;
+    justify-content: space-between;
+}
