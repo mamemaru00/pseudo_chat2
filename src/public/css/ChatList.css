@@ -1,0 +1,93 @@
+/* タイトル */
+.chatlist_title {
+    margin: 50px;
+}
+
+/* 背景 */
+
+.chatlist_background {
+    width: 100%;
+}
+
+.chatlist_background_color {
+    background: #EEEEEE;
+    height: 700px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+/* ユーザー名 */
+
+.chatlist_user_name {
+    font-size: 30px;
+    margin-left: 60px;
+    padding-top: 50px;
+}
+
+.chatlist_user_name_position {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chatlist_user_name_edit {
+    margin-right: 308px;
+    padding-top: 30px;
+}
+
+/* ボタン */
+
+.chat_list_create button{
+    width: 200px;
+    font-size: 30px;
+    background-color: #2C7CFF;
+    cursor: pointer;
+    color: white;
+}
+
+.chatlist_edit button {
+    width: 100px;
+    height: 42px;
+    font-size: 24px;
+    background-color: #D2691E;
+    cursor: pointer;
+}
+
+.chatlist_delete button {
+    width: 100px;
+    height: 42px;
+    font-size: 24px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.chat_list_create_position {
+    display: flex;
+    justify-content: end;
+    padding-right: 200px;
+}
+
+/* ルーム一覧 */
+
+.chatlist_room_list_designation {
+    font-size: 30px;
+    padding-left: 55px;
+}
+
+.chatlist_room_list a {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.chatlist_room_list_edit {
+    padding-left: 1070px;
+}
+
+.chatlist_room_list_delete {
+    padding-right: 150px;
+}

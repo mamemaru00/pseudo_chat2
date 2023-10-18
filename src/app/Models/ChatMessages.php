@@ -13,7 +13,7 @@ class ChatMessages extends Model
         'id',
         'chat_room_id',
         'chat_message',
-        'is_system_,message',
+        'is_system_message',
     ];
 
     public function chatRoom()

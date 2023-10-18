@@ -9,7 +9,7 @@ class ChatRooms extends Model
 {
     use HasFactory;
 
-    use HasFactory;
+    // コンストラクターでidを割り振る
 
     protected $fillable = [
         'id',
