@@ -42,15 +42,16 @@
     {{-- textを入力欄を追加してください --}}
     {{-- 送信ボタンを追加 --}}
     {{-- <form action="/message_store" method="POST"> --}}
-    <form action={{ route('message_store', ['id' => $id]) }} method="POST">
-        @csrf
-        <div class="chatmessage_post_background">
-            <div class="chatmessage_post">
-                <input type="text" name="chat_message">
-                <button type="submit">送信</button>
-            </div>
-        </div>
-    </form>
+    <div class="chatmessage_post_background">    
+        <form action={{ route('message_store', ['id' => $id]) }} method="POST">
+            @csrf
+                <div class="chatmessage_post">
+                    <input type="text" name="chat_message">
+                    <button type="submit">送信</button>
+                    <button type="button" onclick="location.href='{{ route('ChatRooms.index') }}'">戻る</button>
+                </div>
+        </form>
+    </div>
 </body>
 
 </html>

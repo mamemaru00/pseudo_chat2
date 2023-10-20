@@ -17,6 +17,7 @@
     margin-top: 660px;
     position: fixed;
     bottom: 0;
+    border-radius: 8px;
 }
 
 .chatmessage_post {
@@ -28,4 +29,14 @@
     width: 80%;
     height: 50px;
     font-size: 24px;
+    border-radius: 8px;
+    background-color: #DDDDDD;
+}
+
+.chatmessage_post button {
+    width: 100px;
+    font-size: 24px;
+    border-radius: 8px;
+    background-color: #DDDDDD;
+    cursor: pointer;
 }
