@@ -40,3 +40,19 @@
     background-color: #DDDDDD;
     cursor: pointer;
 }
+
+.chatmessage_list_item_message p {
+    background-color: #DDDDDD;
+    display: inline-block;
+    border: 2px solid #000000;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.chatmessage_list_bot_item_message_bot p {
+    background-color: #DDDDDD;
+    display: inline-block;
+    border: 2px solid #000000;
+    word-wrap: break-word;
+    white-space: normal;
+}
