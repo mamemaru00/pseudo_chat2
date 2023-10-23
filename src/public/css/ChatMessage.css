@@ -1,0 +1,58 @@
+.chatmessage_list_item {
+    float: right;
+}
+
+.chatmessage_list_item_message {
+    font-size: 24px;
+}
+
+.chatmessage_list_bot_item_message_bot {
+    font-size: 24px;
+}
+
+.chatmessage_post_background {
+    background-color: #777777;
+    height: 200px;
+    width: 99%;
+    margin-top: 660px;
+    position: fixed;
+    bottom: 0;
+    border-radius: 8px;
+}
+
+.chatmessage_post {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.chatmessage_post input {
+    width: 80%;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 8px;
+    background-color: #DDDDDD;
+}
+
+.chatmessage_post button {
+    width: 100px;
+    font-size: 24px;
+    border-radius: 8px;
+    background-color: #DDDDDD;
+    cursor: pointer;
+}
+
+.chatmessage_list_item_message p {
+    background-color: #DDDDDD;
+    display: inline-block;
+    border: 2px solid #000000;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.chatmessage_list_bot_item_message_bot p {
+    background-color: #DDDDDD;
+    display: inline-block;
+    border: 2px solid #000000;
+    word-wrap: break-word;
+    white-space: normal;
+}
